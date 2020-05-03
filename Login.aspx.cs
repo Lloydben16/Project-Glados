@@ -19,7 +19,7 @@ namespace Project_Glados_master
 
         protected void BtnLogin_Click(object sender, EventArgs e)
         {
-            using (SqlConnection sqlCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjectGladosDBConnectionString3"].ConnectionString))
+            using (SqlConnection sqlCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjectGladosDBConnectionString2"].ConnectionString))
             {
                 sqlCon.Open();
                 string query = "SELECT COUNT(1) FROM Users WHERE userName = @userName AND password = @password";
@@ -83,7 +83,7 @@ namespace Project_Glados_master
 
         protected void SignUp_Click(object sender, EventArgs e)
         {
-            using (SqlConnection sqlCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjectGladosDBConnectionString3"].ConnectionString))
+            using (SqlConnection sqlCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjectGladosDBConnectionString2"].ConnectionString))
             {
                 sqlCon.Open();
                 string query = "INSERT INTO Users (isModerator, isAdministrator, isDeleted, userName, [password], email) VALUES (0, 0, 0, @username, @password, @email)";

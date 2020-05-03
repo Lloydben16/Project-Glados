@@ -58,7 +58,7 @@
 			<asp:TextBox ID="title"  placeholder="Title" runat = "server"></asp:TextBox>
 			<br/>
 			<br/>
-			<label for="price">Password:</label>
+			<label for="price">Price:</label>
 			<br/>
 			<asp:TextBox  ID="price"  placeholder="Price" runat = "server"></asp:TextBox>
 			<br/>
@@ -75,7 +75,7 @@
 			<br/>
 			<label for="description">Description:</label>
 			<br/>
-			<asp:TextBox  ID="description"  placeholder="description" runat = "server"></asp:TextBox>
+			<asp:TextBox  ID="description"  placeholder="Description" runat = "server"></asp:TextBox>
 			<br/>
 			<br/>
 			<asp:Button ID ="RequestGame" runat ="server" OnClick="RequestGame_Click" Text ="Request Game" style ="background-color: DarkOrange; text-align:center; color: black; cursor: pointer; border: none;"/>

@@ -73,21 +73,27 @@
                     <asp:ListItem>5</asp:ListItem>
                 </asp:DropDownList>
                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Search" />
-                <asp:Button ID="AddGame" runat="server" OnClick="AddGame_Click" Text="Add Game" />
             </div>
 
             <br />
 
             <div>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString3 %>" SelectCommand="SELECT TOP 10 [VideoGameId], [Title], [Price], [Genre], [Company] FROM [VideoGames] WHERE Requested = 0">
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString2 %>" SelectCommand="SELECT TOP 10 [VideoGameId], [Title], [Price], [Rating], [Genre], [Company], [Requested] FROM [VideoGames]">
                 </asp:SqlDataSource>
            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" DataSourceID="SqlDataSource1" GridLines="None" HorizontalAlign="Center" Width="75%" AllowSorting="true">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:HyperLinkField DataTextField="Title" DataNavigateUrlFields="VideoGameId" HeaderText="Title" SortExpression="Title" ItemStyle-HorizontalAlign="Center" DataNavigateUrlFormatString="./WebForm3.aspx?VideoGameId={0}"/>
                     <asp:BoundField DataField="Genre" HeaderText="Genre" SortExpression="Genre" ItemStyle-HorizontalAlign="Center"/>
+                    <asp:BoundField DataField="Rating" HeaderText="Rating" SortExpression="Rating" ItemStyle-HorizontalAlign="Center" />
                     <asp:BoundField DataField="Company" HeaderText="Company" SortExpression="Company" ItemStyle-HorizontalAlign="Center"/>
                     <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" ItemStyle-HorizontalAlign="Center"/>
+                    <asp:BoundField DataField="Requested" HeaderText="Requested" SortExpression="Requested" ItemStyle-HorizontalAlign="Center"/>
+                    <asp:TemplateField ShowHeader="false" ItemStyle-HorizontalAlign="Center">
+                        <ItemTemplate>
+                            <asp:Button ID="Button2" runat="server" CausesValidation="false" OnClick="ButtonClick" text='<%# Eval("Requested").ToString() == "False" ? "Delete Game" : "Confirm Add"%>' />
+                        </ItemTemplate>
+                    </asp:TemplateField>
                 </Columns>
                 <EditRowStyle BackColor="#7C6F57" />
                 <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />

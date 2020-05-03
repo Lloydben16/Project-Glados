@@ -40,13 +40,21 @@ namespace Project_Glados_master
         protected void Button1_Click(object sender, EventArgs e)
         {
             String query = "SELECT VideoGameId, Title, Genre, Company, Price FROM VideoGames WHERE Title LIKE '%" + gameTitle.Text + "%' AND Company LIKE '%" + gameDeveloper.Text + "%'";
+            if (gameRating.Text != "Rating") {
+                query += " AND Rating >= " + gameRating.Text + " ORDER BY Rating DESC";
+            }
             SqlDataSource1.SelectCommand = query;
             SqlDataSource1.DataBind();
         }
 
-        protected void AddGame_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("AddGameWebForm.aspx");
+        //protected void AddGame_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("AddGameWebForm.aspx");
+        //}
+
+        // Use this method to make a game deleted or to make a game confirmed
+        protected void ButtonClick(object sender, EventArgs e) {
+
         }
     }
 }

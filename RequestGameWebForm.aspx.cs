@@ -19,7 +19,7 @@ namespace Project_Glados_master
 
         protected void RequestGame_Click(object sender, EventArgs e)
         {
-            using (SqlConnection sqlCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjectGladosDBConnectionString3"].ConnectionString))
+            using (SqlConnection sqlCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjectGladosDBConnectionString2"].ConnectionString))
             {
                 sqlCon.Open();
                 string query = "INSERT INTO VideoGames (Title, Price, Company, Genre, Description, Rating, Requested) VALUES (@title, @price, @company, @genre, @description, 0, 1)";

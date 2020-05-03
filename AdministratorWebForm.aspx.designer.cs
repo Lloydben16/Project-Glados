@@ -7,12 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project_Glados_master
-{
+namespace Project_Glados_master {
 
 
-    public partial class AdministratorWebForm
-    {
+    public partial class AdministratorWebForm {
 
         /// <summary>
         /// form2 control.
@@ -76,15 +74,6 @@ namespace Project_Glados_master
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// AddGame control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddGame;
 
         /// <summary>
         /// SqlDataSource1 control.

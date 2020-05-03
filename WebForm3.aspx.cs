@@ -11,7 +11,7 @@ namespace Project_Glados_master
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string query = "SELECT [Title], [Price], [Genre], [Company] FROM [VideoGames] WHERE [VideoGameId] = " + Request.QueryString["VideoGameId"];
+            string query = "SELECT [Title], [Rating], [Price], [Genre], [Company] FROM [VideoGames] WHERE [VideoGameId] = " + Request.QueryString["VideoGameId"];
             SqlDataSource1.SelectCommand = query;
             SqlDataSource1.DataBind();
         }

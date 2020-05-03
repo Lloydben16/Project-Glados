@@ -79,13 +79,14 @@
             <br />
 
             <div>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString3 %>" SelectCommand="SELECT TOP 10 [VideoGameId], [Title], [Price], [Genre], [Company] FROM [VideoGames] WHERE Requested = 0">
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString2 %>" SelectCommand="SELECT TOP 10 [VideoGameId], [Title], [Price], [Genre], [Company] FROM [VideoGames] WHERE Requested = 0">
                 </asp:SqlDataSource>
            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" DataSourceID="SqlDataSource1" GridLines="None" HorizontalAlign="Center" Width="75%" AllowSorting="true">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:HyperLinkField DataTextField="Title" DataNavigateUrlFields="VideoGameId" HeaderText="Title" SortExpression="Title" ItemStyle-HorizontalAlign="Center" DataNavigateUrlFormatString="./WebForm3.aspx?VideoGameId={0}"/>
                     <asp:BoundField DataField="Genre" HeaderText="Genre" SortExpression="Genre" ItemStyle-HorizontalAlign="Center"/>
+                    <asp:BoundField DataField="Rating" HeaderText="Rating" SortExpression="Rating" ItemStyle-HorizontalAlign="Center"/>
                     <asp:BoundField DataField="Company" HeaderText="Company" SortExpression="Company" ItemStyle-HorizontalAlign="Center"/>
                     <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" ItemStyle-HorizontalAlign="Center"/>
                 </Columns>
