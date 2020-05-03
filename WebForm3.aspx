@@ -48,30 +48,33 @@
 	<div style="text-align:center; color:RoyalBlue">
 	<h1>Aperture Programming</h1>
 	<h2>Project Glados</h2>
-	<h3>Extended Results</h3>
 	<br/>
 
 	</div>
-	
-	<div style="text-align:right">
-	<button class="button">Back to Main</button>
-	</div>
+
 	<br/>
 	<br/>
 
 	<div style="margin: auto; align-items: center">
         <form id="form1" runat="server">
+			<div style="text-align:right">
+                <div id ="BackToMain" runat ="server" >
+                </div>
+	            <asp:Button ID ="BtnMain" runat ="server" OnClick="BtnMain_Click" Text ="Main Page" style ="background-color: DarkOrange; text-align:center; color: black; cursor: pointer; border: none;"/>
+	        </div>
+
             <div>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:GladosDB %>" SelectCommand="SELECT [Title], [Price], [GenreId], [Description] FROM [VideoGames]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString3 %>" SelectCommand="SELECT [Title], [Price], [Genre], [Company] FROM [VideoGames]"></asp:SqlDataSource>
             </div>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" HorizontalAlign="Center" Width="75%" AllowSorting="true">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:BoundField DataField="Title" HeaderText="Title" SortExpression="Title" ItemStyle-HorizontalAlign="Center"/>
                     <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" ItemStyle-HorizontalAlign="Center"/>
-                    <asp:BoundField DataField="GenreId" HeaderText="GenreId" SortExpression="GenreId" ItemStyle-HorizontalAlign="Center"/>
-                    <asp:BoundField DataField="Description" HeaderText="Description" SortExpression="Description" ItemStyle-HorizontalAlign="Center"/>
+                    <asp:BoundField DataField="Genre" HeaderText="Genre" SortExpression="Genre" ItemStyle-HorizontalAlign="Center"/>
+                    <asp:BoundField DataField="Company" HeaderText="Company" SortExpression="Company" ItemStyle-HorizontalAlign="Center"/>
                 </Columns>
+
                 <EditRowStyle BackColor="#7C6F57" />
                 <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
                 <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />

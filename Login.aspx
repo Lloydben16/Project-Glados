@@ -46,7 +46,6 @@
 	</div>
 
 	<div style="text-align:right">
-	<button class="button">Back to Main</button>
 	</div>
 	<br/>
 	<br/>

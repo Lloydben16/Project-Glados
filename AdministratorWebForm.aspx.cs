@@ -4,14 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
-using System.Data;
 
 namespace Project_Glados_master
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class AdministratorWebForm : System.Web.UI.Page
     {
-
         //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\lloyd\Documents\ProjectGladosDB.mdf;Integrated Security=True;Connect Timeout=30";
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -45,6 +42,11 @@ namespace Project_Glados_master
             String query = "SELECT VideoGameId, Title, Genre, Company, Price FROM VideoGames WHERE Title LIKE '%" + gameTitle.Text + "%' AND Company LIKE '%" + gameDeveloper.Text + "%'";
             SqlDataSource1.SelectCommand = query;
             SqlDataSource1.DataBind();
+        }
+
+        protected void AddGame_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddGameWebForm.aspx");
         }
     }
 }

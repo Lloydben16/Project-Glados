@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Project_Glados_master.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdministratorWebForm.aspx.cs" Inherits="Project_Glados_master.AdministratorWebForm" %>
 
 <!DOCTYPE html>
 
@@ -73,6 +73,7 @@
                     <asp:ListItem>5</asp:ListItem>
                 </asp:DropDownList>
                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Search" />
+                <asp:Button ID="AddGame" runat="server" OnClick="AddGame_Click" Text="Add Game" />
             </div>
 
             <br />
