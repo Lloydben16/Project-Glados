@@ -91,7 +91,7 @@
                     <asp:BoundField DataField="Requested" HeaderText="Requested" SortExpression="Requested" ItemStyle-HorizontalAlign="Center"/>
                     <asp:TemplateField ShowHeader="false" ItemStyle-HorizontalAlign="Center">
                         <ItemTemplate>
-                            <asp:Button ID="Button2" runat="server" CausesValidation="false" OnClick="ButtonClick" text='<%# Eval("Requested").ToString() == "False" ? "Delete Game" : "Confirm Add"%>' />
+                            <asp:Button ID="Button2" runat="server" CausesValidation="false" OnCommand="ButtonClick" CommandArgument='<%# Eval("VideoGameId").ToString() %>' text='<%# Eval("Requested").ToString() == "False" ? "Delete Game" : "Confirm Add"%>' />
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
