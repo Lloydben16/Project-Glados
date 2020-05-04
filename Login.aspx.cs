@@ -41,6 +41,7 @@ namespace Project_Glados_master
                     if (count == 1)
                     {
                         Session["username"] = Username.Text.Trim();
+                        Session["webpage"] = "ModeratorWebForm.aspx";
                         Response.Redirect("ModeratorWebForm.aspx");
                     }
                     else
@@ -55,11 +56,13 @@ namespace Project_Glados_master
                         if (count == 1)
                         {
                             Session["username"] = Username.Text.Trim();
+                            Session["webpage"] = "AdministratorWebForm.aspx";
                             Response.Redirect("AdministratorWebForm.aspx");
                         }
                         else
                         {
                             Session["username"] = Username.Text.Trim();
+                            Session["webpage"] = "WebForm1.aspx";
                             Response.Redirect("WebForm1.aspx");
 
                         }
@@ -78,6 +81,7 @@ namespace Project_Glados_master
         protected void Continue_Click(object sender, EventArgs e)
         {
             Session["username"] = null;
+            Session["webpage"] = "WebForm1.aspx";
             Response.Redirect("WebForm1.aspx");
         }
 
@@ -96,6 +100,7 @@ namespace Project_Glados_master
                 sqlCon.Close();
 
                 Session["username"] = usernameSignUp.Text.Trim();
+                Session["webpage"] = "WebForm1.aspx";
                 Response.Redirect("WebForm1.aspx");
             }
         }

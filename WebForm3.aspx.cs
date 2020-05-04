@@ -18,7 +18,7 @@ namespace Project_Glados_master
 
         protected void BtnMain_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm1.aspx");
+            Response.Redirect(Session["webpage"].ToString());
         }
     }
 }

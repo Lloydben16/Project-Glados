@@ -39,7 +39,7 @@ namespace Project_Glados_master
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            String query = "SELECT VideoGameId, Title, Genre, Company, Requested, Price FROM VideoGames WHERE Requested=0 AND Title LIKE '%" + gameTitle.Text + "%' AND Company LIKE '%" + gameDeveloper.Text + "%'";
+            String query = "SELECT VideoGameId, Title, Genre, Company, Requested, Price, Rating FROM VideoGames WHERE Requested=0 AND Title LIKE '%" + gameTitle.Text + "%' AND Company LIKE '%" + gameDeveloper.Text + "%'";
             if (gameRating.Text != "Rating") {
                 query += " AND Rating >= " + gameRating.Text + " ORDER BY Rating DESC";
             }
