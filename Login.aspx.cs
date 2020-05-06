@@ -145,8 +145,8 @@ namespace Project_Glados_master
                 query = "SELECT UserId FROM Users WHERE userName = @userName AND password = @password";
 
                 sqlCmd = new SqlCommand(query, sqlCon);
-                sqlCmd.Parameters.AddWithValue("@userName", Username.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@username", usernameSignUp.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@password", passwordSignUp.Text.Trim());
 
 
                 SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
