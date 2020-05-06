@@ -121,8 +121,8 @@ namespace Project_Glados_master
         protected void Continue_Click(object sender, EventArgs e)
         {
             Session["username"] = null;
-            Session["webpage"] = "WebForm1.aspx";
-            Response.Redirect("WebForm1.aspx");
+            Session["webpage"] = "nonUserHomepage.aspx";
+            Response.Redirect("nonUserHomepage.aspx");
         }
 
         protected void SignUp_Click(object sender, EventArgs e)
