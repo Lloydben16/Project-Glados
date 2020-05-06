@@ -61,10 +61,12 @@
                 <div id ="BackToMain" runat ="server" >
                 </div>
 	            <asp:Button ID ="BtnMain" runat ="server" OnClick="BtnMain_Click" Text ="Main Page" style ="background-color: DarkOrange; text-align:center; color: black; cursor: pointer; border: none;"/>
-	        </div>
+	            <br />
+                <asp:Button ID ="BtnComment" runat ="server" OnClick="BtnComment_Click" Text ="Comment" style ="background-color: DarkOrange; text-align:center; color: black; cursor: pointer; border: none;"/>
+            </div>
 
             <div>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString2 %>" SelectCommand="SELECT [Title], [Rating], [Price], [Genre], [Company] FROM [VideoGames]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProjectGladosDBConnectionString2 %>" SelectCommand="SELECT [Title], [Rating], [Price], [Genre], [Company] FROM [VideoGames] WHERE Vi"></asp:SqlDataSource>
             </div>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" HorizontalAlign="Center" Width="75%" AllowSorting="true">
                 <AlternatingRowStyle BackColor="White" />

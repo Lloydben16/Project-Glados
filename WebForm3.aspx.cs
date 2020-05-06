@@ -10,6 +10,7 @@ namespace Project_Glados_master
     public partial class WebForm3 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e) {
+            Session["currentVideoGame"] = Request.QueryString["VideoGameId"];
             string query = "SELECT [Title], [Rating], [Price], [Genre], [Company] FROM [VideoGames] WHERE [VideoGameId] = " + Request.QueryString["VideoGameId"];
             SqlDataSource1.SelectCommand = query;
             SqlDataSource1.DataBind();
@@ -21,6 +22,12 @@ namespace Project_Glados_master
 
         protected void BtnMain_Click(object sender, EventArgs e) {
             Response.Redirect(Session["webpage"].ToString());
+        }
+
+        protected void BtnComment_Click(object sender, EventArgs e)
+        {
+            Session["VideoGamePage"] = "WebForm3.aspx?VideoGameId=" + Session["currentVideoGame"];
+            Response.Redirect("CommentWebForm.aspx");
         }
     }
 }

@@ -28,6 +28,7 @@ namespace Project_Glados_master
                 sqlCmd.Parameters.AddWithValue("@userName", Username.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
 
+
                 int count = Convert.ToInt32(sqlCmd.ExecuteScalar());
                 if (count == 1)
                 {
@@ -42,6 +43,19 @@ namespace Project_Glados_master
                     {
                         Session["username"] = Username.Text.Trim();
                         Session["webpage"] = "ModeratorWebForm.aspx";
+
+                        query = "SELECT UserId FROM Users WHERE userName = @userName AND password = @password";
+
+                        sqlCmd = new SqlCommand(query, sqlCon);
+                        sqlCmd.Parameters.AddWithValue("@userName", Username.Text.Trim());
+                        sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
+
+
+                        SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        Session["userId"] = dt.Rows[0]["UserId"].ToString();
+
                         Response.Redirect("ModeratorWebForm.aspx");
                     }
                     else
@@ -57,12 +71,38 @@ namespace Project_Glados_master
                         {
                             Session["username"] = Username.Text.Trim();
                             Session["webpage"] = "AdministratorWebForm.aspx";
+
+                            query = "SELECT UserId FROM Users WHERE userName = @userName AND password = @password";
+
+                            sqlCmd = new SqlCommand(query, sqlCon);
+                            sqlCmd.Parameters.AddWithValue("@userName", Username.Text.Trim());
+                            sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
+
+
+                            SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
+                            DataTable dt = new DataTable();
+                            da.Fill(dt);
+                            Session["userId"] = dt.Rows[0]["UserId"].ToString();
+
                             Response.Redirect("AdministratorWebForm.aspx");
                         }
                         else
                         {
                             Session["username"] = Username.Text.Trim();
                             Session["webpage"] = "WebForm1.aspx";
+
+                            query = "SELECT UserId FROM Users WHERE userName = @userName AND password = @password";
+
+                            sqlCmd = new SqlCommand(query, sqlCon);
+                            sqlCmd.Parameters.AddWithValue("@userName", Username.Text.Trim());
+                            sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
+
+
+                            SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
+                            DataTable dt = new DataTable();
+                            da.Fill(dt);
+                            Session["userId"] = dt.Rows[0]["UserId"].ToString();
+
                             Response.Redirect("WebForm1.aspx");
 
                         }
@@ -101,6 +141,19 @@ namespace Project_Glados_master
 
                 Session["username"] = usernameSignUp.Text.Trim();
                 Session["webpage"] = "WebForm1.aspx";
+
+                query = "SELECT UserId FROM Users WHERE userName = @userName AND password = @password";
+
+                sqlCmd = new SqlCommand(query, sqlCon);
+                sqlCmd.Parameters.AddWithValue("@userName", Username.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
+
+
+                SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                Session["userId"] = dt.Rows[0]["UserId"].ToString();
+
                 Response.Redirect("WebForm1.aspx");
             }
         }
