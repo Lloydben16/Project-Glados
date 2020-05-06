@@ -61,6 +61,8 @@
                 <div id ="BackToMain" runat ="server" >
                 </div>
 	            <asp:Button ID ="BtnMain" runat ="server" OnClick="BtnMain_Click" Text ="Main Page" style ="background-color: DarkOrange; text-align:center; color: black; cursor: pointer; border: none;"/>
+                <br />
+                <asp:Button ID ="BtnComment" runat ="server" OnClick="BtnComment_Click" Text ="Comment" style ="background-color: DarkOrange; text-align:center; color: black; cursor: pointer; border: none;"/>
 	        </div>
 
             <div>
@@ -99,11 +101,7 @@
                     <asp:BoundField DataField="userName" HeaderText="userName" SortExpression="userName" ItemStyle-HorizontalAlign="Center"/>
                     <asp:BoundField DataField="Rating" HeaderText="Rating" SortExpression="Rating" ItemStyle-HorizontalAlign="Center"/>
 					<asp:BoundField DataField="Comments" HeaderText="Comments" SortExpression="Comments" ItemStyle-HorizontalAlign="Center"/>
-                    <asp:TemplateField ShowHeader="false" ItemStyle-HorizontalAlign="Center">
-                        <ItemTemplate>
-                            <asp:Button ID="Button2" runat="server" CausesValidation="false" text="Delete Comment" />
-                        </ItemTemplate>
-                    </asp:TemplateField>
+                    <asp:HyperLinkField DataNavigateUrlFields="CommentsId" Text="Delete Comment" ItemStyle-HorizontalAlign="Center" DataNavigateUrlFormatString="./ConfirmDelete.aspx?CommentsId={0}" />
                 </Columns>
 
                 <EditRowStyle BackColor="#7C6F57" />

@@ -1,0 +1,138 @@
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\ApplicationInsights.config
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\csc.exe
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Collections.Immutable.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Reflection.Metadata.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\vbc.exe
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe.config
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll.config
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.pdb
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.xml
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.xml
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.xml
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.xml
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csprojResolveAssemblyReference.cache
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.dll
+F:\Program Files (x86)\Tencent\QQUserFiles\375307454\FileRecv\MobileFile\新建文件夹\新建文件夹\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.pdb
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\ApplicationInsights.config
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\csc.exe
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\vbc.exe
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll.config
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.pdb
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.xml
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csprojAssemblyReference.cache
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csproj.CoreCompileInputs.cache
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csproj.CopyComplete
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.dll
+C:\Users\gaoyu\Desktop\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.pdb
+F:\Project-Glados-master\Project-Glados-master\bin\ApplicationInsights.config
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\csc.exe
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Collections.Immutable.dll
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Reflection.Metadata.dll
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\vbc.exe
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe
+F:\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe.config
+F:\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll.config
+F:\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.pdb
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.xml
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.xml
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.xml
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.xml
+F:\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csprojAssemblyReference.cache
+F:\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csproj.CoreCompileInputs.cache
+F:\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csproj.CopyComplete
+F:\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.dll
+F:\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.pdb
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\ApplicationInsights.config
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\csc.exe
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\vbc.exe
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll.config
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Project-Glados-master.pdb
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.Web.xml
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csprojAssemblyReference.cache
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csproj.CoreCompileInputs.cache
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.csproj.CopyComplete
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.dll
+C:\Users\lloyd\source\repos\Project-Glados-master\Project-Glados-master\obj\Debug\Project-Glados-master.pdb
